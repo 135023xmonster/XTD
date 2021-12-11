@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethernal - NFT Marketplace HTML Template</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/owl.carousel.css">
+    <link rel="stylesheet" href="static/css/owl.theme.default.css">
+    <link rel="stylesheet" href="static/css/remixicon.css">
+    <link rel="stylesheet" href="static/css/fonts.css">
+    <link rel="stylesheet" href="static/css/app.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- 做loading   js -->
+    <div class="Loader">
+        <div class="spinnerPairHolder">  <!-- 特效旋转-->
+            <div class="spinnerPair">
+                <div class="spinnerPairCercle"></div>
+                <div class="spinnerPairCercle"></div>
+            </div>
+            <div class="spinnerPair">
+                <div class="spinnerPairCercle"></div>
+                <div class="spinnerPairCercle"></div>
+            </div>
+            <div class="spinnerPair">
+                <div class="spinnerPairCercle"></div>
+                <div class="spinnerPairCercle"></div>
+            </div>
+            <div class="spinnerPair">
+                <div class="spinnerPairCercle"></div>
+                <div class="spinnerPairCercle"></div>
+            </div>
+            <div class="spinnerPair">
+                <div class="spinnerPairCercle"></div>
+                <div class="spinnerPairCercle"></div>
+            </div>
+        </div>
+    </div>
+	<!-- 以上部分是加载页面时的动画效果 -->
+
+    <!-- 导航部分-->
+	
+   
+    <div class="nav-landing">
+        <div class="container-fluid"> <!--  响应式容器-->
+            <div class="wrapper">
+                <a href="" class="logo-otr"> <!--LOGO样式-->
+                    <img class="logo" src="image/XTD.PNG" alt="Logo">
+                </a>
+                <div class="menu-otr">
+                    <ul class="menu-ul">
+                        <li class="menu-li">
+                            <a href="#intro" class="menu-a heading-SB">Photography</a>
+                        </li>
+                        <li class="menu-li">
+                            <a href="#home-page" class="menu-a heading-SB">show</a>
+                        </li>
+                        <li class="menu-li">
+                            <a href="#inner-page" class="menu-a heading-SB">contact us</a>
+                        </li>
+                        <li class="menu-li">
+                            <a href="newLogin.html" class="menu-a heading-SB">Login</a>
+                        </li>
+                        <li class="menu-li">
+                            <a href="newSignup.html" class="menu-a heading-SB">Signup</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="action-otr">
+                    <a href="javascript:;" class="btn-primary-1 heading-MB">subscribe</a>
+                </div>
+                <div class="burger-icon-otr">
+                    <i class="ri-menu-4-line burger-icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--             导航栏下的页面部分          -->
+    
+
+<div class="landing-Hero" id="intro" data-aos="fade-up">
+    <div class="container-fluid"><!--  响应式容器-->
+        <div class="row row-custom">  <!--网格布局-->
+            <div class="col-lg-5 col-content-otr">
+                <div class="col-content-inr">
+                    <h1 class="heading-h1 heading">
+                        Welcome to the world <span class="text-color"> of </span>  photography
+                    </h1>
+                    <div class="heading2-otr">
+                        <h2 class="heading2 heading-h2">Technology  <br> provision</h2>
+                    </div>
+                    <div class="logo-otr">
+                        <ul class="logo-ul">
+                            <li class="logo-li">
+                                <svg class="logo" width="80" height="80" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="80" height="80" rx="8" fill="#091830"></rect><path d="m20 16.925 3.714 42.122 16.666 5.555 16.772-5.555 3.714-42.122H20Zm32.8 13.611H33.238l.436 5.258h18.688l-1.447 15.793-10.42 2.873v.032h-.116l-10.504-2.905-.639-8.067h5.077l.372 4.054 5.694 1.544 5.715-1.544.638-6.619H28.971L27.61 25.46h25.658l-.468 5.076Z" fill="#F0652A"></path></svg>
+                            </li>
+                            <li class="logo-li">
+                                <svg class="logo" width="80" height="80" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="80" height="80" rx="8" fill="#091830"></rect><path d="m20 16.925 3.714 42.122 16.719 5.555 16.719-5.555 3.714-42.122H20Zm33.32 8.514-.51 5.034-12.27 5.246-.032.01h11.865l-1.362 15.602-10.45 3.054-10.515-3.107-.68-7.865h5.203l.34 4.076 5.599 1.416 5.82-1.64.394-6.555-17.697-.053v-.01l-.022.01-.383-4.927 11.93-4.97.692-.288h-13.08l-.617-5.033h25.776Z" fill="#33A9DB"></path></svg>
+                            </li>
+                            <li class="logo-li">
+                                <svg class="logo" width="80" height="80" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="80" height="80" rx="8" fill="#091830"></rect><path d="M47.466 46.187c0 4.433-4.152 4.33-4.59 4.33H34.42v-8.539h8.455c4.45 0 4.591 3.335 4.591 4.209Zm-5.242-7.645c.07 0 4.018.105 4.018-3.795 0-1.623-.367-3.75-4.018-3.75H34.42v7.545h7.804ZM63.742 24.73v31.22a7.829 7.829 0 0 1-7.805 7.806h-31.22a7.828 7.828 0 0 1-7.806-7.806V24.73a7.828 7.828 0 0 1 7.806-7.805h31.22a7.829 7.829 0 0 1 7.805 7.805ZM52.25 46.808c0-2.255-.695-6.093-5.128-7.04v-.077c2.395-1.022 3.904-2.953 3.904-5.816 0-.732.209-6.772-8.112-6.772H29.637V54.42c13.404 0 14.621.175 17.102-.597 1.485-.462 5.51-1.88 5.51-7.016Z" fill="#7612F5"></path></svg>
+                            </li>
+                            <li class="logo-li">
+                                <svg class="logo" width="80" height="80" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="80" height="80" rx="8" fill="#091830"></rect><path d="M38.28 51.534c-.027.055-.054.099 0 0Zm22.71-7.93c-1.833 0-3.642.42-5.287 1.23-.538-1.084-1.094-2.032-1.185-2.743-.11-.829-.228-1.321-.1-2.306.127-.984.702-2.378.693-2.479-.01-.1-.128-.601-1.304-.61-1.176-.01-2.188.227-2.305.537-.208.567-.37 1.149-.483 1.741-.21 1.067-2.351 4.877-3.564 6.864-.4-.775-.738-1.459-.811-2.006-.11-.83-.228-1.321-.1-2.306.127-.984.702-2.379.693-2.479-.01-.1-.128-.601-1.303-.61-1.175-.01-2.188.227-2.306.537-.119.31-.246 1.04-.483 1.741-.237.702-3.09 7.046-3.836 8.695a45.066 45.066 0 0 1-.948 1.97c-.037.072-.064.118-.082.154.027-.045.045-.091.045-.073-.2.392-.319.61-.319.61v.01c-.155.292-.328.556-.41.556-.055 0-.173-.766.027-1.814.429-2.206 1.44-5.633 1.431-5.751-.009-.064.192-.656-.665-.975-.83-.301-1.13.2-1.203.2-.073 0-.128.182-.128.182s.92-3.864-1.767-3.864c-1.678 0-4.011 1.841-5.158 3.509-.72.392-2.279 1.24-3.92 2.142l-1.886 1.039c-.046-.046-.082-.091-.128-.137-3.262-3.481-9.286-5.943-9.03-10.618.09-1.705.683-6.18 11.582-11.612 8.934-4.448 16.075-3.227 17.305-.51C45.824 28.3 40.237 35.51 30.96 36.55c-3.536.392-5.395-.976-5.86-1.486-.483-.538-.556-.565-.738-.465-.3.164-.11.638 0 .92.274.72 1.413 1.997 3.354 2.635 1.704.556 5.85.866 10.863-1.076 5.631-2.169 10.015-8.212 8.73-13.27-1.31-5.141-9.834-6.827-17.895-3.965-4.803 1.704-9.997 4.384-13.734 7.875-4.438 4.156-5.148 7.774-4.856 9.287 1.038 5.369 8.438 8.869 11.4 11.457-.146.083-.283.155-.41.228-1.486.739-7.127 3.692-8.54 6.809-1.594 3.536.265 6.07 1.486 6.417 3.81 1.057 7.71-.848 9.805-3.974 2.096-3.127 1.842-7.21.875-9.07-.009-.027-.027-.045-.036-.072.383-.228.775-.456 1.167-.684a78.03 78.03 0 0 1 2.141-1.212c-.365.984-.629 2.17-.766 3.883-.164 2.005.666 4.603 1.741 5.623.474.447 1.048.456 1.403.456 1.258 0 1.823-1.039 2.451-2.278.775-1.514 1.459-3.273 1.459-3.273s-.857 4.758 1.486 4.758c.856 0 1.713-1.103 2.096-1.668v.01s.018-.037.064-.11c.091-.137.137-.219.137-.219v-.027c.346-.592 1.103-1.95 2.241-4.193 1.477-2.898 2.889-6.517 2.889-6.517.136.796.325 1.581.565 2.352.255.866.793 1.814 1.222 2.734-.347.474-.556.748-.556.748 0 .007.004.013.009.018-.274.364-.584.756-.903 1.14-1.166 1.385-2.552 2.97-2.734 3.426-.22.538-.164.94.255 1.249.31.237.857.273 1.43.228 1.048-.073 1.787-.328 2.142-.492a7.492 7.492 0 0 0 1.84-.967c1.14-.838 1.833-2.041 1.769-3.627-.036-.875-.319-1.75-.665-2.57.1-.146.21-.301.31-.456 1.803-2.634 3.198-5.526 3.198-5.526.137.796.325 1.581.565 2.352.22.738.647 1.55 1.039 2.343-1.695 1.376-2.743 2.97-3.108 4.02-.674 1.94-.146 2.816.848 3.016.447.091 1.085-.118 1.559-.319a7.24 7.24 0 0 0 1.968-1.012c1.14-.838 2.241-2.014 2.168-3.61-.027-.72-.228-1.44-.492-2.132 1.431-.602 3.29-.93 5.66-.656 5.075.592 6.069 3.764 5.877 5.086-.191 1.321-1.258 2.06-1.613 2.278-.356.22-.465.301-.438.465.046.237.21.228.51.174.42-.073 2.662-1.076 2.762-3.528.146-3.099-2.834-6.508-8.113-6.48l.003.001Zm-39.122 13.19c-1.676 1.831-4.028 2.524-5.039 1.94-1.085-.63-.656-3.326 1.412-5.279 1.258-1.184 2.88-2.278 3.955-2.953.246-.145.602-.364 1.04-.629.072-.045.109-.063.109-.063.082-.055.173-.1.264-.155.756 2.77.027 5.213-1.74 7.136v.002Zm12.248-8.331c-.584 1.43-1.813 5.076-2.56 4.885-.639-.164-1.03-2.944-.129-5.678.456-1.377 1.422-3.017 1.997-3.655.92-1.03 1.931-1.358 2.168-.948.32.537-1.112 4.502-1.476 5.395Zm10.118 4.83c-.246.128-.474.21-.584.146-.082-.045.1-.219.1-.219s1.268-1.358 1.77-1.977c.29-.365.628-.794.992-1.267 0 .045.009.09.009.145-.012 1.632-1.579 2.735-2.29 3.172h.003Zm7.8-1.777c-.181-.128-.154-.556.457-1.887.237-.52.783-1.394 1.732-2.233.107.318.165.65.173.984-.01 2.051-1.477 2.817-2.36 3.136h-.001Z" fill="#CD6799"></path></svg>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img class="img" src="image/sheying1.jpg" alt="img" >
+    <img class="img-2" src="image/123.webp" alt="img">
+</div>
+
+    <!--   页面的按钮部分  -->
+    <div class="home-link-main" data-aos="fade-right">
+        <div class="container-fluid">  <!--  响应式容器-->
+            <div class="wrapper">
+                <div class="tab-otr"><!--display:flex-->
+                    <h2 class="heading heading-h2">The major photographic works are as follows</h2>
+                    <div class="tab-inr">
+                        <div class="btn-drop"><!--按钮样式下拉菜单-->
+                            <p class="btn-drop-inr heading-SB">Blue Mode</p>
+                            <i class="ri-arrow-down-s-line arrow-down"></i>
+                        </div>
+                        <ul class="tabs-ul">
+                            <li class="tab-link tab17 active" data-tab="1">
+                                <p class="tab-p tab-17 heading-SB">Blue Mode</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row-custom-main"> <!--网格布局模板-->
+                <div id="tab-1" class="tab-content active">
+                    <div class="row row-custom-inr" id="home-page">
+                        <div class="col-lg-4 col-md-6 col-linkk-otr">
+                            <div class="col-linkk-inr box-1">
+                                <a href="index1.html" target="_blank" class="img-otr">
+                                    <img class="img-linkk" src="image/tiankong.jpg" alt="img">
+                                </a>
+                                <a href="index1.html" target="_blank" class="linkk-page heading-h4">Sky photography</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-linkk-otr">
+                            <div class="col-linkk-inr box-2">
+                                <a href="Home-v2.html" target="_blank" class="img-otr">
+                                    <img class="img-linkk" src="image/niao.jpg" alt="img" style="width: 585; height: 480;">
+                                </a>
+                                <a href="Home-v2.html" target="_blank" class="linkk-page heading-h4">Spiritual bird</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-linkk-otr">
+                            <div class="col-linkk-inr box-3">
+                                <a href="Sea.html" target="_blank" class="img-otr">
+                                    <img class="img-linkk" src="image/haitun.jpg" alt="img">
+                                </a>
+                                <a href="Sea.html" target="_blank" class="linkk-page heading-h4">Sea World</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!--tab-content active-->
+            </div><!--row-custom-main-->
+
+
+        </div><!-- container-fluid-->
+    </div><!--  home-link-main-->
+
+
+
+    <!--  底部-->
+
+
+    <div class="footer-landing" id="inner-page" data-aos="fade-left"> <!-- 引入底部样式--> 
+        <div class="container-fluid"><!--  响应式容器-->
+            <div class="wrapper">
+                <h2 class="heading heading-h2">Photography finds beauty <br> come with us</h2>
+                <p class="desc heading-L">The charm of photography is reflected everywhere,<br> In life, let's use the camera to find beauty! <br> Let's act together</p>
+                <div class="action-otr">
+                    <a href="Contact.html" class="btn-primary-1 heading-SB">contact us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-landing">
+        <div class="container-fluid"><!--  响应式容器-->
+            <div class="wrapper">
+                <p class="copy-right heading-S">Creation time:2021.12.11<a target="_blank" href="https://sc.chinaz.com/moban/"></a></p>
+            </div>
+        </div>
+    </div>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        offset: 200,
+        delay: 100,
+        duration: 1000,
+    });
+    </script>
+
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/jquery.countdown.min.js"></script><!--滑动特效 -->
+    <script src="static/js/owl.carousel.min.js"></script>
+    <script src="static/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/app.js"></script>
+</body>
+</html>
